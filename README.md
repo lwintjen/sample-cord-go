@@ -15,6 +15,6 @@ Please, bear in mind that you can optionally setup the profile picture url and t
 type UserDetails struct {
 	Name  string `json:"name"`
 	Email string `json:"email"`
-    ProfilePictureUrl string `json:"profile_picture_url"`
+    	ProfilePictureUrl string `json:"profile_picture_url"`
 }
 ```
