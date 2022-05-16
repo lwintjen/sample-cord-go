@@ -55,7 +55,7 @@ func main() {
 	jwtKey := []byte(Config.Secret)
 
 	// Declare the expiration time of the token
-	// here, we have kept it as 5 minutes
+	// here, we have kept it as 1 minute
 	expirationTime := time.Now().Add(1 * time.Minute)
 	// Create the JWT claims, which includes the username and expiry time
 	claims := &Claims{
